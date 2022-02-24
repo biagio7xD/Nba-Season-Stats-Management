@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nba_teams>
+  <team id="0">
+    <Team_ID>1610612744</Team_ID>
+    <Name>Golden State Warriors</Name>
+    <Abbr>GSW</Abbr>
+    <Nickname>Warriors</Nickname>
+    <Year_Founded>1946</Year_Founded>
+    <City>Golden State</City>
+    <Arena>Chase Center</Arena>
+    <Capacity>19596</Capacity>
+    <Owner>Joe Lacob</Owner>
+    <Manager>Bob Myers</Manager>
+  </team>
+  <team id="1">
+    <Team_ID>1610612745</Team_ID>
+    <Name>Houston Rockets</Name>
+    <Abbr>HOU</Abbr>
+    <Nickname>Rockets</Nickname>
+    <Year_Founded>1967</Year_Founded>
+    <City>Houston</City>
+    <Arena>Toyota Center</Arena>
+    <Capacity>18104</Capacity>
+    <Owner>Tilman Fertitta</Owner>
+    <Manager>Daryl Morey</Manager>
+  </team>
+  <team id="2">
+    <Team_ID>1610612740</Team_ID>
+    <Name>New Orleans Pelicans</Name>
+    <Abbr>NOP</Abbr>
+    <Nickname>Pelicans</Nickname>
+    <Year_Founded>2002</Year_Founded>
+    <City>New Orleans</City>
+    <Arena>Smoothie King Center</Arena>
+    <Capacity>10000</Capacity>
+    <Owner>Tom Benson</Owner>
+    <Manager>Trajan Langdon</Manager>
+  </team>
+  <team id="3">
+    <Team_ID>1610612761</Team_ID>
+    <Name>Toronto Raptors</Name>
+    <Abbr>TOR</Abbr>
+    <Nickname>Raptors</Nickname>
+    <Year_Founded>1995</Year_Founded>
+    <City>Toronto</City>
+    <Arena>Scotiabank Arena</Arena>
+    <Capacity>19800</Capacity>
+    <Owner>Maple Leaf Sports and Entertainment</Owner>
+    <Manager>Masai Ujiri</Manager>
+  </team>
+  <team id="4">
+    <Team_ID>1610612739</Team_ID>
+    <Name>Cleveland Cavaliers</Name>
+    <Abbr>CLE</Abbr>
+    <Nickname>Cavaliers</Nickname>
+    <Year_Founded>1970</Year_Founded>
+    <City>Cleveland</City>
+    <Arena>Quicken Loans Arena</Arena>
+    <Capacity>20562</Capacity>
+    <Owner>Dan Gilbert</Owner>
+    <Manager>Koby Altman</Manager>
+  </team>
+  <team id="5">
+    <Team_ID>1610612743</Team_ID>
+    <Name>Denver Nuggets</Name>
+    <Abbr>DEN</Abbr>
+    <Nickname>Nuggets</Nickname>
+    <Year_Founded>1976</Year_Founded>
+    <City>Denver</City>
+    <Arena>Pepsi Center</Arena>
+    <Capacity>19099</Capacity>
+    <Owner>Stan Kroenke</Owner>
+    <Manager>Tim Connelly</Manager>
+  </team>
+  <team id="6">
+    <Team_ID>1610612755</Team_ID>
+    <Name>Philadelphia 76ers</Name>
+    <Abbr>PHI</Abbr>
+    <Nickname>76ers</Nickname>
+    <Year_Founded>1949</Year_Founded>
+    <City>Philadelphia</City>
+    <Arena>Wells Fargo Center</Arena>
+    <Capacity>10000</Capacity>
+    <Owner>Joshua Harris</Owner>
+    <Manager>Elton Brand</Manager>
+  </team>
+  <team id="7">
+    <Team_ID>1610612750</Team_ID>
+    <Name>Minnesota Timberwolves</Name>
+    <Abbr>MIN</Abbr>
+    <Nickname>Timberwolves</Nickname>
+    <Year_Founded>1989</Year_Founded>
+    <City>Minnesota</City>
+    <Arena>Target Center</Arena>
+    <Capacity>19356</Capacity>
+    <Owner>Glen Taylor</Owner>
+    <Manager>Scott Layden</Manager>
+  </team>
+  <team id="8">
+    <Team_ID>1610612746</Team_ID>
+    <Name>Los Angeles Clippers</Name>
+    <Abbr>LAC</Abbr>
+    <Nickname>Clippers</Nickname>
+    <Year_Founded>1970</Year_Founded>
+    <City>Los Angeles</City>
+    <Arena>Staples Center</Arena>
+    <Capacity>19060</Capacity>
+    <Owner>Steve Ballmer</Owner>
+    <Manager>Michael Winger</Manager>
+  </team>
+  <team id="9">
+    <Team_ID>1610612766</Team_ID>
+    <Name>Charlotte Hornets</Name>
+    <Abbr>CHA</Abbr>
+    <Nickname>Hornets</Nickname>
+    <Year_Founded>1950</Year_Founded>
+    <City>Not Available</City>
+    <Arena>Not Available</Arena>
+    <Capacity>10000</Capacity>
+    <Owner>Not Avaialable</Owner>
+    <Manager>Not Avaialable</Manager>
+  </team>
+  <team id="10">
+    <Team_ID>1610612747</Team_ID>
+    <Name>Los Angeles Lakers</Name>
+    <Abbr>LAL</Abbr>
+    <Nickname>Lakers</Nickname>
+    <Year_Founded>1948</Year_Founded>
+    <City>Los Angeles</City>
+    <Arena>Staples Center</Arena>
+    <Capacity>19060</Capacity>
+    <Owner>Jerry Buss Family Trust</Owner>
+    <Manager>Rob Pelinka</Manager>
+  </team>
+  <team id="11">
+    <Team_ID>1610612760</Team_ID>
+    <Name>Oklahoma City Thunder</Name>
+    <Abbr>OKC</Abbr>
+    <Nickname>Thunder</Nickname>
+    <Year_Founded>1967</Year_Founded>
+    <City>Oklahoma City</City>
+    <Arena>Chesapeake Energy Arena</Arena>
+    <Capacity>19163</Capacity>
+    <Owner>Clay Bennett</Owner>
+    <Manager>Sam Presti</Manager>
+  </team>
+  <team id="12">
+    <Team_ID>1610612764</Team_ID>
+    <Name>Washington Wizards</Name>
+    <Abbr>WAS</Abbr>
+    <Nickname>Wizards</Nickname>
+    <Year_Founded>1961</Year_Founded>
+    <City>Washington</City>
+    <Arena>Capital One Arena</Arena>
+    <Capacity>20647</Capacity>
+    <Owner>Ted Leonsis</Owner>
+    <Manager>Tommy Sheppard</Manager>
+  </team>
+  <team id="13">
+    <Team_ID>1610612751</Team_ID>
+    <Name>Brooklyn Nets</Name>
+    <Abbr>BKN</Abbr>
+    <Nickname>Nets</Nickname>
+    <Year_Founded>1950</Year_Founded>
+    <City>Not Available</City>
+    <Arena>Not Available</Arena>
+    <Capacity>10000</Capacity>
+    <Owner>Not Avaialable</Owner>
+    <Manager>Not Avaialable</Manager>
+  </team>
+  <team id="14">
+    <Team_ID>1610612749</Team_ID>
+    <Name>Milwaukee Bucks</Name>
+    <Abbr>MIL</Abbr>
+    <Nickname>Bucks</Nickname>
+    <Year_Founded>1968</Year_Founded>
+    <City>Milwaukee</City>
+    <Arena>Fiserv Forum</Arena>
+    <Capacity>17500</Capacity>
+    <Owner>Wesley Edens &amp; Marc Lasry</Owner>
+    <Manager>Jon Horst</Manager>
+  </team>
+  <team id="15">
+    <Team_ID>1610612757</Team_ID>
+    <Name>Portland Trail Blazers</Name>
+    <Abbr>POR</Abbr>
+    <Nickname>Trail Blazers</Nickname>
+    <Year_Founded>1970</Year_Founded>
+    <City>Portland</City>
+    <Arena>Moda Center</Arena>
+    <Capacity>19980</Capacity>
+    <Owner>Paul Allen</Owner>
+    <Manager>Neil Olshey</Manager>
+  </team>
+  <team id="16">
+    <Team_ID>1610612754</Team_ID>
+    <Name>Indiana Pacers</Name>
+    <Abbr>IND</Abbr>
+    <Nickname>Pacers</Nickname>
+    <Year_Founded>1976</Year_Founded>
+    <City>Indiana</City>
+    <Arena>Bankers Life Fieldhouse</Arena>
+    <Capacity>18345</Capacity>
+    <Owner>Herb Simon</Owner>
+    <Manager>Kevin Pritchard</Manager>
+  </team>
+  <team id="17">
+    <Team_ID>1610612752</Team_ID>
+    <Name>New York Knicks</Name>
+    <Abbr>NYK</Abbr>
+    <Nickname>Knicks</Nickname>
+    <Year_Founded>1946</Year_Founded>
+    <City>New York</City>
+    <Arena>Madison Square Garden</Arena>
+    <Capacity>19763</Capacity>
+    <Owner>Cablevision (James Dolan)</Owner>
+    <Manager>Steve Mills</Manager>
+  </team>
+  <team id="18">
+    <Team_ID>1610612762</Team_ID>
+    <Name>Utah Jazz</Name>
+    <Abbr>UTA</Abbr>
+    <Nickname>Jazz</Nickname>
+    <Year_Founded>1974</Year_Founded>
+    <City>Utah</City>
+    <Arena>Vivint Smart Home Arena</Arena>
+    <Capacity>20148</Capacity>
+    <Owner>Greg Miller</Owner>
+    <Manager>Dennis Lindsey</Manager>
+  </team>
+  <team id="19">
+    <Team_ID>1610612738</Team_ID>
+    <Name>Boston Celtics</Name>
+    <Abbr>BOS</Abbr>
+    <Nickname>Celtics</Nickname>
+    <Year_Founded>1946</Year_Founded>
+    <City>Boston</City>
+    <Arena>TD Garden</Arena>
+    <Capacity>18624</Capacity>
+    <Owner>Wyc Grousbeck</Owner>
+    <Manager>Danny Ainge</Manager>
+  </team>
+  <team id="20">
+    <Team_ID>1610612756</Team_ID>
+    <Name>Phoenix Suns</Name>
+    <Abbr>PHX</Abbr>
+    <Nickname>Suns</Nickname>
+    <Year_Founded>1950</Year_Founded>
+    <City>Not Available</City>
+    <Arena>Not Available</Arena>
+    <Capacity>10000</Capacity>
+    <Owner>Not Avaialable</Owner>
+    <Manager>Not Avaialable</Manager>
+  </team>
+  <team id="21">
+    <Team_ID>1610612765</Team_ID>
+    <Name>Detroit Pistons</Name>
+    <Abbr>DET</Abbr>
+    <Nickname>Pistons</Nickname>
+    <Year_Founded>1948</Year_Founded>
+    <City>Detroit</City>
+    <Arena>Little Caesars Arena</Arena>
+    <Capacity>21000</Capacity>
+    <Owner>Tom Gores</Owner>
+    <Manager>Ed Stefanski</Manager>
+  </team>
+  <team id="22">
+    <Team_ID>1610612748</Team_ID>
+    <Name>Miami Heat</Name>
+    <Abbr>MIA</Abbr>
+    <Nickname>Heat</Nickname>
+    <Year_Founded>1988</Year_Founded>
+    <City>Miami</City>
+    <Arena>AmericanAirlines Arena</Arena>
+    <Capacity>19600</Capacity>
+    <Owner>Micky Arison</Owner>
+    <Manager>Pat Riley</Manager>
+  </team>
+  <team id="23">
+    <Team_ID>1610612753</Team_ID>
+    <Name>Orlando Magic</Name>
+    <Abbr>ORL</Abbr>
+    <Nickname>Magic</Nickname>
+    <Year_Founded>1989</Year_Founded>
+    <City>Orlando</City>
+    <Arena>Amway Center</Arena>
+    <Capacity>0</Capacity>
+    <Owner>Rick DeVos</Owner>
+    <Manager>John Hammond</Manager>
+  </team>
+  <team id="24">
+    <Team_ID>1610612737</Team_ID>
+    <Name>Atlanta Hawks</Name>
+    <Abbr>ATL</Abbr>
+    <Nickname>Hawks</Nickname>
+    <Year_Founded>1949</Year_Founded>
+    <City>Atlanta</City>
+    <Arena>State Farm Arena</Arena>
+    <Capacity>18729</Capacity>
+    <Owner>Tony Ressler</Owner>
+    <Manager>Travis Schlenk</Manager>
+  </team>
+  <team id="25">
+    <Team_ID>1610612741</Team_ID>
+    <Name>Chicago Bulls</Name>
+    <Abbr>CHI</Abbr>
+    <Nickname>Bulls</Nickname>
+    <Year_Founded>1966</Year_Founded>
+    <City>Chicago</City>
+    <Arena>United Center</Arena>
+    <Capacity>21711</Capacity>
+    <Owner>Jerry Reinsdorf</Owner>
+    <Manager>Gar Forman</Manager>
+  </team>
+  <team id="26">
+    <Team_ID>1610612759</Team_ID>
+    <Name>San Antonio Spurs</Name>
+    <Abbr>SAS</Abbr>
+    <Nickname>Spurs</Nickname>
+    <Year_Founded>1976</Year_Founded>
+    <City>San Antonio</City>
+    <Arena>AT&amp;T Center</Arena>
+    <Capacity>18694</Capacity>
+    <Owner>Peter Holt</Owner>
+    <Manager>Brian Wright</Manager>
+  </team>
+  <team id="27">
+    <Team_ID>1610612742</Team_ID>
+    <Name>Dallas Mavericks</Name>
+    <Abbr>DAL</Abbr>
+    <Nickname>Mavericks</Nickname>
+    <Year_Founded>1980</Year_Founded>
+    <City>Dallas</City>
+    <Arena>American Airlines Center</Arena>
+    <Capacity>19200</Capacity>
+    <Owner>Mark Cuban</Owner>
+    <Manager>Donnie Nelson</Manager>
+  </team>
+  <team id="28">
+    <Team_ID>1610612763</Team_ID>
+    <Name>Memphis Grizzlies</Name>
+    <Abbr>MEM</Abbr>
+    <Nickname>Grizzlies</Nickname>
+    <Year_Founded>1995</Year_Founded>
+    <City>Memphis</City>
+    <Arena>FedExForum</Arena>
+    <Capacity>18119</Capacity>
+    <Owner>Robert Pera</Owner>
+    <Manager>Zach Kleiman</Manager>
+  </team>
+  <team id="29">
+    <Team_ID>1610612758</Team_ID>
+    <Name>Sacramento Kings</Name>
+    <Abbr>SAC</Abbr>
+    <Nickname>Kings</Nickname>
+    <Year_Founded>1948</Year_Founded>
+    <City>Sacramento</City>
+    <Arena>Golden 1 Center</Arena>
+    <Capacity>17500</Capacity>
+    <Owner>Vivek Ranadive</Owner>
+    <Manager>Vlade Divac</Manager>
+  </team>
+</nba_teams>

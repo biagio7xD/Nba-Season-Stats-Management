@@ -1,0 +1,49 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="nba_stats">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="team_stats" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:integer" name="Team_ID"/>
+                            <xs:element type="xs:integer" name="Season"/>
+                            <xs:element type="xs:decimal" name="PTS"/>
+                            <xs:element type="xs:decimal" name="FG_PCT"/>
+                            <xs:element type="xs:decimal" name="FT_PCT"/>
+                            <xs:element type="xs:decimal" name="FG3_PCT"/>
+                            <xs:element type="xs:decimal" name="AST"/>
+                            <xs:element type="xs:decimal" name="REB"/>
+                            <xs:element type="xs:decimal" name="ELO_BEFORE"/>
+                            <xs:element type="xs:decimal" name="FGM"/>
+                            <xs:element type="xs:decimal" name="FGA"/>
+                            <xs:element type="xs:decimal" name="FG3M"/>
+                            <xs:element type="xs:decimal" name="FG3A"/>
+                            <xs:element type="xs:decimal" name="FTM"/>
+                            <xs:element type="xs:decimal" name="FTA"/>
+                            <xs:element type="xs:decimal" name="OREB"/>
+                            <xs:element type="xs:decimal" name="DREB"/>
+                            <xs:element type="xs:decimal" name="STL"/>
+                            <xs:element type="xs:decimal" name="BLK"/>
+                            <xs:element type="xs:decimal" name="TO"/>
+                            <xs:element type="xs:decimal" name="PF"/>
+                            <xs:element type="xs:decimal" name="FG2M"/>
+                            <xs:element type="xs:decimal" name="FG2A"/>
+                            <xs:element type="xs:decimal" name="FG_MISSED"/>
+                            <xs:element type="xs:decimal" name="FT_MISSED"/>
+                            <xs:element type="xs:decimal" name="EFFICACY"/>
+                            <xs:element type="xs:decimal" name="EFG"/>
+                            <xs:element type="xs:decimal" name="PTS_FGA"/>
+                            <xs:element type="xs:decimal" name="PIE"/>
+                            <xs:element type="xs:decimal" name="POSS"/>
+                            <xs:element type="xs:decimal" name="PACE"/>
+                            <xs:element type="xs:decimal" name="OFF_EFC"/>
+                            <xs:element type="xs:decimal" name="DEF_EFC"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:byte" name="id" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

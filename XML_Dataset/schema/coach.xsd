@@ -1,0 +1,35 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="All_Coaches">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Coach" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="Coach_Name"/>
+                            <xs:element type="xs:integer" name="SeasG"/>
+                            <xs:element type="xs:integer" name="SeasW"/>
+                            <xs:element type="xs:decimal" name="SeasL"/>
+                            <xs:element type="xs:integer" name="FranG"/>
+                            <xs:element type="xs:integer" name="FranW"/>
+                            <xs:element type="xs:integer" name="FranL"/>
+                            <xs:element type="xs:integer" name="CareW"/>
+                            <xs:element type="xs:integer" name="CareL"/>
+                            <xs:element type="xs:decimal" name="CareWP"/>
+                            <xs:element type="xs:decimal" name="POSeasG"/>
+                            <xs:element type="xs:decimal" name="POSeasW"/>
+                            <xs:element type="xs:decimal" name="POSeasL"/>
+                            <xs:element type="xs:decimal" name="POFranG"/>
+                            <xs:element type="xs:decimal" name="POFranW"/>
+                            <xs:element type="xs:decimal" name="POFranL"/>
+                            <xs:element type="xs:decimal" name="POCareG"/>
+                            <xs:element type="xs:decimal" name="POCareW"/>
+                            <xs:element type="xs:decimal" name="POCareL"/>
+                            <xs:element type="xs:integer" name="Team_ID"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
