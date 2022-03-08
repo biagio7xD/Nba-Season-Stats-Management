@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="players" type="nba_playersType"/>
+  <xs:complexType name="playerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Name"/>
+      <xs:element name="Pos">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="SG"/>
+            <xs:enumeration value="PF"/>
+            <xs:enumeration value="C"/>
+            <xs:enumeration value="PG"/>
+            <xs:enumeration value="SF"/>
+            <xs:enumeration value="SF-SG"/>
+            <xs:enumeration value="PG-SG"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:integer" name="Age"/>
+      <xs:element type="xs:integer" name="Gms"/>
+      <xs:element type="xs:integer" name="Gstart"/>
+      <xs:element type="xs:float" name="MP"/>
+      <xs:element type="xs:float" name="FG"/>
+      <xs:element type="xs:float" name="FGA"/>
+      <xs:element type="xs:float" name="FGP"/>
+      <xs:element type="xs:float" name="ThreeP"/>
+      <xs:element type="xs:float" name="ThreePA"/>
+      <xs:element type="xs:float" name="ThreePP"/>
+      <xs:element type="xs:float" name="TwoP"/>
+      <xs:element type="xs:float" name="TwoPA"/>
+      <xs:element type="xs:float" name="TwoPP"/>
+      <xs:element type="xs:float" name="eFGP"/>
+      <xs:element type="xs:float" name="FT"/>
+      <xs:element type="xs:float" name="FTA"/>
+      <xs:element type="xs:float" name="FTP"/>
+      <xs:element type="xs:float" name="ORB"/>
+      <xs:element type="xs:float" name="DRB"/>
+      <xs:element type="xs:float" name="TRB"/>
+      <xs:element type="xs:float" name="AST"/>
+      <xs:element type="xs:float" name="STL"/>
+      <xs:element type="xs:float" name="BLK"/>
+      <xs:element type="xs:float" name="TOV"/>
+      <xs:element type="xs:float" name="PF"/>
+      <xs:element type="xs:float" name="PTS"/>
+      <xs:element type="xs:int" name="TEAM_ID"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nba_playersType">
+    <xs:sequence>
+      <xs:element type="playerType" name="player" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
